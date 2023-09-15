@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+	font-family: 'Lato', arial, helvetica;
+}
+
+.view-sm {
+	font-size: 15px !important; 
+}
+
+.btn-xs {
+	font-size: 13px !important; 
+}
+
+span.required {
+	color: red; 
+	font-weight: 700; 
+}
+
+.btn-group-xs > .btn, .btn-xs {
+	padding: .25rem .4rem;
+	font-size: .875rem;
+	line-height: .5;
+	border-radius: .2rem;
+}
+
+[class*=sidebar-light-] {
+	background: #007bff; 
+}
+
+[class*=sidebar-light-] .nav-sidebar>.nav-item.menu-open>.nav-link, [class*=sidebar-light-] .nav-sidebar>.nav-item:hover>.nav-link {
+	color: #FFF; 
+}
+
+[class*=sidebar-light] .brand-link,
+.accent-navy [class*=sidebar-light-] .sidebar a:not(.dropdown-item):not(.btn-app):not(.nav-link):not(.brand-link),
+[class*=sidebar-light-] .sidebar a {
+	color: #EEE; 
+}
+
+[class*=sidebar-light-] .nav-treeview>.nav-item>.nav-link {
+	color: #DDD; 
+}
+
+.card-grafik .nav-item {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+/*.nav-pills .nav-link,
+.info-box,
+.card,
+.info-box .info-box-icon {
+	border-radius: 0px; 
+}*/
+
+.highcharts-data-table table {
+	width: 100%; 
+	border-collapse: collapse;
+}
+
+.highcharts-data-table table tr td, 
+.highcharts-data-table table tr th {
+	border: solid 1px #888;
+	padding: 5px;
+}
